@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="file" id="fileInput" />
+    <button type="button" id="loadImgBtn">Загрузить фото</button>
+    <div id="previewFoto">
+      <button type="button" id="rotateBtn">Повернуть на 90 градусов</button>
+    </div>
+    <div id="rezultImg">
+      <button type="button" id="rezultBtn">Итоговая картинка</button>
+    </div>
+
+    <p>
+      <input id="input_id" type="range" min="-180" max="180" value="0" />
+      <label id="label_id" for="input_id"></label>
+    </p>
+    <input type="button" value="Повернуть" id="btn" />
+    <p><canvas id="canvas_id"></canvas></p>
+    <script src="_index.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
